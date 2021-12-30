@@ -1,1 +1,1 @@
-https://GITHUB-kowwalski.github.io/rsschool-cv/cv
+https://GITHUB-KOWWASKI.github.io/rsschool-cv/cv
