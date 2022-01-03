@@ -1,4 +1,144 @@
 * {
-  height: 100%;
-  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family:'Nunito', sans-serif;;
 }
+
+body {
+  background-color: rgb(65, 73, 90);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.main-content {
+  width: 800px;
+  min-height: 100vh;
+  display: flex;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.main-content .left_section {
+  width: 300px;
+  background: #3f5861;
+}
+
+.main-content .left_section .left_profile  {
+ width: 100%;
+ height: 280px;
+}
+
+.main-content .left_section .left_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-content  .left_content {
+  margin: 10px;
+}
+
+.main-content .title {
+  margin-bottom: 20px;
+}
+
+
+.regular {
+  color: #b1eaff;
+}
+
+.main-content .content_item {
+  padding: 20px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.main-content .content_item .left_content:last-child{
+ border-bottom: 0px;
+}
+
+.main-content .content_item  ul li{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.main-content .content_item  ul li:last-child {
+margin-bottom: 0px;
+} 
+
+.main-content .content_item ul li .icon {
+width: 35px;
+height: 35px;
+background: #fff;
+color: #0bb5f4;
+border-radius: 50%;
+margin-right: 15px;
+font-size: 16px;
+position: relative;
+}
+
+.main-content .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.main-content .left_content ul li .data {
+  color: #b1eaff;
+}
+
+.main-content .left_content .content_skills ul li{
+ color: #b1eaff;
+ justify-content: space-between;
+}
+
+.main-content .left_content .content_skills ul li .skill_name {
+  width: 25%;
+}
+
+.main-content .left_content .content_skills ul li .skill_name .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.main-content .left_content .content_skills ul li .skill_name .skill_per {
+  width: 15%;
+
+}
+
+.main-content .left_content .content_skills ul li .skill_name .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.semi_bold {
+font-weight: 500;
+font-size: 16px;
+}
+
+.main-content .right_profile {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+footer {
+  width: auto;
+  padding: 20px;
+  background: #b1eaff;
+ 
+}
+
